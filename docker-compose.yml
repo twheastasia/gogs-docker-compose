@@ -7,7 +7,7 @@ services:
     image: gogs/gogs:latest
     ports:
         - "3022:22"
-        - "3000:3000"
+        - "4007:3000"
     volumes:
         - "./data:/data/gogs"
         - "./repo:/data/git/gogs-repositories"
